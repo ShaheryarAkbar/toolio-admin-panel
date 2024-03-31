@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* main {
+  max-width: 1440px;
+  margin: auto;
+} */
+
+.body-layout {
+  display: flex;
+  width: 100%;
+  background-color: #F8F8F8;
+}
+
+.main-sec {
+  width: calc(100% - 250px);
+}
+
+.main-sec .main-sec-wrapper {
+  padding: 20px 20px 0 20px;
+  position: relative;
+}
+
+.top-header {
+  border-bottom: 1px solid rgba(121, 119, 119, 0.4);
+}
+
+.top-header .top-header-content {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-header .top-header-content .left-sec {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.top-header .top-header-content .middle-sec {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-header .top-header-content .right-sec {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.top-header .top-header-content form {
+  position: relative;
+  padding-left: 35px;
+}
+
+.top-header .top-header-content form .search-icon {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.top-header .top-header-content form .search-icon img {
+  height: auto;
+  width: auto;
+}
+
+.top-header .top-header-content form input {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000;
+  background: transparent;
+  border: none;
+  padding: 5px;
+}
+
+.top-header .top-header-content form input:focus {
+  border: none;
+  outline: none;
+}
+
+.top-header .top-header-content form input::placeholder {
+  color: #797777;
+}
+
+.top-header .top-header-content h2.page-heading {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+.top-header .top-header-content a.notification-icon {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+.top-header .top-header-content a.notification-icon img {
+  height: auto;
+  width: auto;
+}
+
+.main-body .main-body-wrapper .main-contents {
+  height: 100%;
+  display: flex;
+}
+
+.main-body .main-body-wrapper .main-contents .side-users-sec {
+  width: 35%;
+  padding: 20px 20px 20px 0;
+  border-right: 1px solid rgba(121, 119, 119, 0.4);
+}
+
+.main-body .main-body-wrapper .main-contents .side-users-sec .setting-records h4.title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.main-body .main-body-wrapper .main-contents .side-users-sec .setting-records span.description {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #797777;
+  margin-bottom: 5px;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec {
+  padding: 20px 0 20px 20px;
+  display: block;
+  width: 65%;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-heading {
+  margin-bottom: 10px;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-heading h4.title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form {
+  padding: 30px 0;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form {
+  width: 90%;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group label {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #797777;
+  margin-bottom: 5px;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group input {
+  width: 100%;
+  height: 46px;
+  padding: 10px 45px 10px 10px;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  border-radius: 50px;
+  color: #797777;
+  outline: none;
+  background: transparent;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group select {
+  width: 100%;
+  height: 46px;
+  padding: 10px 45px 10px 10px;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  border-radius: 50px;
+  color: #797777;
+  outline: none;
+  background: transparent;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group input::placeholder {
+  color: #797777;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group .input-icon {
+  height: auto;
+  width: auto;
+  position: absolute;
+  right: 12px;
+  bottom: 8px;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group textarea {
+  width: 100%;
+  height: 161px;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  border-radius: 20px;
+  color: #797777;
+  padding: 5px 10px;
+  outline: none;
+  background: transparent;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group textarea::placeholder {
+  color: #797777;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-group-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 20px;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-btn .add-btn {
+  width: 125px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #00263D;
+  border: 1px solid #00263D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form .form-btn .add-btn span {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1300px) {
+  .main-body .main-body-wrapper .main-contents .setting-detail-sec .setting-records-form form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toolio Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/reviews.css" />
+    <link rel="stylesheet" href="./assets/styles/Sidebar.css" />
+</head>
+  <body>
+    <main>
+      <div class="body-layout">
+        <div class="sidebar">
+          <div class="sidebar-wrapper">
+            <div class="top-sidebar-logo">
+              <div class="sidebar-logo">
+                <a href="./Dashboard.html">
+                  <img src="./assets/images/Toolio_logo.png" alt="logo">
+                </a>
+              </div>
+            </div>
+            <div class="side-bar-content">
+              <div class="user-profile">
+                <div class="user-profile-content">
+                  <div class="user-img">
+                    <img src="./assets/images/user.png" alt="user">
+                  </div>
+                  <p class="title">Jacob Jones</p>
+                  <span class="mail">jacob123@gmail.com</span>
+                </div>
+              </div>
+              <div class="menu-contents">
+                <ul class="menu-items">
+                  <li class="menu-item">
+                    <a href="./Dashboard.html">
+                      <div class="menu-icon">
+                        <img src="./assets/images/Dashboard.svg" alt="Dashboard">
+                      </div>
+                      <span class="menu-item-text">Dashboard</span>
+                    </a>
+                  </li>
+                  <li class="menu-item active">
+                    <a href="./Reviews.html">
+                      <div class="menu-icon">
+                        <img src="./assets/images/Reviews.svg" alt="Reviews">
+                      </div>
+                      <span class="menu-item-text">Reviews</span>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./Message.html">
+                      <div class="menu-icon">
+                        <img src="./assets/images/Chat.svg" alt="Message">
+                      </div>
+                      <span class="menu-item-text">Message</span>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./Orders.html">
+                      <div class="menu-icon">
+                        <img src="./assets/images/Orders.svg" alt="Orders">
+                      </div>
+                      <span class="menu-item-text">Orders</span>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./Settings.html">
+                      <div class="menu-icon">
+                        <img src="./assets/images/settings.svg" alt="Settings">
+                      </div>
+                      <span class="menu-item-text">Settings</span>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="./Products.html">
+                      <div class="menu-icon">
+                        <img src="./assets/images/Product.svg" alt="Products">
+                      </div>
+                      <span class="menu-item-text">Products</span>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">
+                      <div class="menu-icon">
+                        <img src="./assets/images/Logout.svg" alt="Log out">
+                      </div>
+                      <span class="menu-item-text">Log out</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-sec">
+          <div class="main-sec-wrapper">
+            <div class="top-header">
+              <div class="top-header-content">
+                <div class="left-sec">
+                  <h2 class="page-heading">Reviews</h2>
+                </div>
+                <div class="middle-sec">
+                  <form action="">
+                    <div class="search-icon">
+                      <img src="./assets/images/Search.svg" alt="Search">
+                    </div>
+                    <input type="text" name="search" placeholder="Search.." id="">
+                  </form>
+                </div>
+                <div class="right-sec">
+                  <a href="#" class="notification-icon">
+                    <img src="./assets/images/Notification.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="main-body">
+              <div class="main-body-wrapper">
+                <div class="main-contents">
+                  <div class="reviews-main-content">
+                    <div class="total-reviews">
+                      <h4 class="review-heading">Total reviews</h4>
+                      <div class="value-flex">
+                        <h3 class="value">42.0k</h3>
+                        <span class="rate">+4.60%</span>
+                      </div>
+                      <span class="meta">Growth in reviews on this month</span>
+                    </div>
+                    <div class="total-reviews">
+                      <h4 class="review-heading">Average Rating</h4>
+                      <div class="value-flex rating-flex">
+                        <h3 class="value">4.0</h3>
+                        <div class="rating-stars">
+                          <div class="star">
+                            <img src="./assets/images/active-star.svg" alt="active-star">
+                          </div>
+                          <div class="star">
+                            <img src="./assets/images/active-star.svg" alt="active-star">
+                          </div>
+                          <div class="star">
+                            <img src="./assets/images/active-star.svg" alt="active-star">
+                          </div>
+                          <div class="star">
+                            <img src="./assets/images/active-star.svg" alt="active-star">
+                          </div>
+                          <div class="star">
+                            <img src="./assets/images/inactive-star.svg" alt="inactive-star">
+                          </div>
+                        </div>
+                      </div>
+                      <span class="meta">Average rating on this month</span>
+                    </div>
+                  </div>
+                  <div class="client-reviews-section">
+                    <div class="client-reviews-content">
+                      <div class="client-info">
+                        <div class="client-img">
+                          <img src="./assets/images/user1.png" alt="user1">
+                        </div>
+                        <div class="client-detail">
+                          <h4 class="client-title">Kovacs Timea</h4>
+                          <div class="rating">
+                            <div class="rating-stars">
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                            </div>
+                            <div class="rating-date">
+                              <span>2 weeks ago</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="client-msg">
+                        <p class="message">
+                          I had a fantastic experience with this service and
+                          am incredibly pleased with the results. The 
+                          provider was highly responsive throughout the 
+                          process.
+                        </p>
+                        <div class="client-review">
+                          <a href="#">Publish Review</a>
+                          <a href="#">Direct Message</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-reviews-content">
+                      <div class="client-info">
+                        <div class="client-img">
+                          <img src="./assets/images/user2.png" alt="user2">
+                        </div>
+                        <div class="client-detail">
+                          <h4 class="client-title">Andy Campbell</h4>
+                          <div class="rating">
+                            <div class="rating-stars">
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                            </div>
+                            <div class="rating-date">
+                              <span>2 weeks ago</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="client-msg">
+                        <p class="message">
+                          I had a fantastic experience with this service and
+                          am incredibly pleased with the results. The 
+                          provider was highly responsive throughout the 
+                          process.
+                        </p>
+                        <div class="client-review">
+                          <a href="#">Publish Review</a>
+                          <a href="#">Direct Message</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-reviews-content">
+                      <div class="client-info">
+                        <div class="client-img">
+                          <img src="./assets/images/user3.png" alt="user3">
+                        </div>
+                        <div class="client-detail">
+                          <h4 class="client-title">Sandra Lewis</h4>
+                          <div class="rating">
+                            <div class="rating-stars">
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                              <div class="star">
+                                <img src="./assets/images/active-star.svg" alt="active-star">
+                              </div>
+                            </div>
+                            <div class="rating-date">
+                              <span>2 weeks ago</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="client-msg">
+                        <p class="message">
+                          I had a fantastic experience with this service and
+                          am incredibly pleased with the results. The 
+                          provider was highly responsive throughout the 
+                          process.
+                        </p>
+                        <div class="client-review">
+                          <a href="#">Publish Review</a>
+                          <a href="#">Direct Message</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
